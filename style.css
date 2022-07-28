@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Roboto&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Roboto&family=Sriracha&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive
+}
+body{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    height: 98vh;
+
+    
+    
+
+}
+header{
+    background-color: black;
+
+    text-align: center;
+    color: white;
+    font-family: var(--fonte1);
+
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+header > h1{
+    margin: 0;
+    padding: 10px;
+}
+header > p{
+    font-size: 1rem;
+}
+section{
+    
+    margin: 0%;
+    padding: 0%;
+    justify-content: left;
+
+}
+section > p{
+    background-color: aquamarine;
+   
+}
+aside{
+    height: 50vh;
+
+    background-color: rgba(0, 0, 0, 0.446);
+    border-radius: 10px;
+
+    font-family: var(--fonte3);
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 500;
+    
+
+    
+    
+
+    
+
+}
+p{
+
+    
+    
+}
+.cordel{
+    height: 700px;
+    font-family: var(--fonte3);
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 500;
+
+    
+}
+.cordel-background{
+    height: 700px;
+    font-family: var(--fonte3);
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: 500;
+
+    background-color: rgba(0, 0, 0, 0.442);
+    
+
+}
+.cordel-background > p{
+    
+}
+
+#primeiro{
+    height: 500px;
+    
+}
+#segundo{
+    display: absolute;
+    height: 100vh;
+    background-color: black;
+    background-image: url(img/background001.jpg);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+
+}
+#terceiro{
+    height: 700px;
+}
+#quarto{
+    display: absolute;
+
+    background-color: rgba(0, 0, 0, 0.442);
+    background-image: url(img/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vw;
+}
+#quinto{
+    height: 700px;
+}
+footer{
+    background-color: black;
+    color: white;
+
+    margin: 0%;
+    padding: 5px;
+
+    text-align: center;
+}
+
