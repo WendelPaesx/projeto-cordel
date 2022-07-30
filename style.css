@@ -23,10 +23,6 @@ body{
     display: block;
     margin: 0%;
     padding: 0%;
-    height: 98vh;
-
-    
-    
 
 }
 header{
@@ -48,7 +44,7 @@ header{
 header > h1{
 
     font-weight: 700;
-    font-size: 10vw;
+    font-size: 7vw;
     font-variant: small-caps;
 
     margin: 0;
@@ -63,8 +59,12 @@ h1{
     display: block;
     padding: 0%;
     margin: 0%;
-    s
 
+}
+a{
+    color: antiquewhite;
+    cursor: pointer;
+    
 }
 section{
     display: block;
@@ -72,20 +72,19 @@ section{
     margin: 0%;
     padding: bottom 10vh; 
     padding-top: 10vh;
-    padding-left: 30px;
     line-height: 2em;
-    font-size: 3.5vw;
+    font-size: 3.5vh;
 
-    justify-content: left;
+    text-align: left;
 
 }
-section > p{
-    background-color: aquamarine;
+    
    
-}
+
 article{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     line-height: 2em;
     text-align: left;
     
@@ -98,7 +97,7 @@ aside{
 
     font-family: var(--fonte3);
     font-style: italic;
-    font-size: 2.2rem;
+    font-size: 3.5vh;
     font-weight: 500;
     
 
@@ -110,42 +109,55 @@ aside{
 }
 p{
     display: block;
+    padding-bottom: 5vh;
     
 
     
     
 }
+div{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.412);
+    padding-right: 10px;
+    padding-left: 30px;
+    line-height: 2.2em;
+}
 .cordel{
-    height: 700px;
     font-family: var(--fonte3);
     font-style: italic;
-    font-size: 2.2rem;
+    font-size: 3.5vh;
     font-weight: 500;
+    padding-left: 30px;
+    line-height: 2.8em;
 
     
 }
 .cordel-background{
-    height: 700px;
+    height: 90vh;
     font-family: var(--fonte3);
     font-style: italic;
-    font-size: 2.2rem;
+    font-size: 3.5vh;
     font-weight: 500;
-
     background-color: rgba(0, 0, 0, 0.442);
-    
+    color: white;
+    line-height: 2.8em;
 
 }
-.cordel-background > p{
+
     
-}
+
+
+    
+
 
 #primeiro{
-    height: 500px;
+    height: 80vh;
     
 }
 #segundo{
     display: absolute;
-    height: 105vh;
+    height: 80vh;
     background-color: black;
     background-image: url(img/background001.jpg);
     background-position: center left;
@@ -157,7 +169,7 @@ p{
 
 }
 #terceiro{
-    height: 700px;
+    height: 80vh;
 }
 #quarto{
     display: absolute;
@@ -168,18 +180,20 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vw;
+    height: 80vh;
 }
 #quinto{
-    height: 700px;
+    height: 80vh;
 }
 footer{
     background-color: black;
     color: white;
-
+    margin: 0%;
+    padding-top: 5px;
+    text-align: center;
+}
+footer > p{
     margin: 0%;
     padding: 5px;
-
-    text-align: center;
 }
 
