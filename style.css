@@ -64,20 +64,27 @@ h1{
 a{
     color: antiquewhite;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
     
+}
+a:hover{
+    color: rgb(3, 255, 3);
+    text-decoration: underline;
 }
 section{
     display: block;
     
     margin: 0%;
-    padding: bottom 10vh; 
+    padding-bottom: 10vh;
     padding-top: 10vh;
     line-height: 2em;
     font-size: 3.5vh;
-
-    text-align: left;
-
 }
+section >p{
+    padding-bottom: 2em;
+}
+
     
    
 
@@ -89,27 +96,13 @@ article{
     text-align: left;
     
 }
-aside{
-    height: 50vh;
 
-    background-color: rgba(0, 0, 0, 0.446);
-    border-radius: 10px;
 
-    font-family: var(--fonte3);
-    font-style: italic;
-    font-size: 3.5vh;
-    font-weight: 500;
-    
 
-    
-    
-
-    
-
-}
 p{
     display: block;
     padding-bottom: 5vh;
+    padding-top: 5vh;
     
 
     
@@ -118,11 +111,15 @@ p{
 div{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.4);
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.412);
     padding-right: 10px;
     padding-left: 30px;
-    line-height: 2.2em;
+    line-height: 2.7em;
 }
+div >p{
+    
+    padding-bottom: 2em;
+}
+
 .cordel{
     font-family: var(--fonte3);
     font-style: italic;
@@ -142,36 +139,22 @@ div{
     background-color: rgba(0, 0, 0, 0.442);
     color: white;
     line-height: 2.8em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.455);
 
 }
 
-    
 
-
-    
-
-
-#primeiro{
-    height: 80vh;
-    
-}
-#segundo{
+#joaninha{
     display: absolute;
-    height: 80vh;
     background-color: black;
     background-image: url(img/background001.jpg);
-    background-position: center left;
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-
-
 }
-#terceiro{
-    height: 80vh;
-}
-#quarto{
+
+#livro{
     display: absolute;
 
     background-color: rgba(0, 0, 0, 0.442);
@@ -180,11 +163,9 @@ div{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 80vh;
+    height: 90vh;
 }
-#quinto{
-    height: 80vh;
-}
+
 footer{
     background-color: black;
     color: white;
@@ -196,4 +177,5 @@ footer > p{
     margin: 0%;
     padding: 5px;
 }
+
 
